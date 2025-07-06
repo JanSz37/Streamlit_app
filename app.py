@@ -13,6 +13,7 @@ import requests
 import io
 import tempfile
 from sklearn.base import BaseEstimator, TransformerMixin
+import random
 
 # Konfiguracja strony
 st.set_page_config(
@@ -190,7 +191,7 @@ def create_prediction_interface(model):
             'median_income': [median_income],
             'ocean_proximity': [ocean_proximity],
             'county': [county],
-            'index_right': np.random.rand(1,1)
+            'index_right': random.randint(100,500)
         })
         
         try:
