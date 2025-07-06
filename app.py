@@ -30,6 +30,7 @@ MODEL_URLS = {
     "Best Overall Model": "https://drive.google.com/uc?id=1ALDixWPGP8YExM2lAngRjOWcAFEpBlu4"
 }
 
+
 # Cache dla ładowania modelu z URL
 @st.cache_resource
 def load_model_from_url(url, model_name):
