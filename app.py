@@ -190,8 +190,7 @@ def create_prediction_interface(model):
             'households': [households],
             'median_income': [median_income],
             'ocean_proximity': [ocean_proximity],
-            'county': [county],
-            'index_right': random.randint(100,500)
+            'county': [county]
         })
         
         try:
