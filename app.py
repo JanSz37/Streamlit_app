@@ -11,6 +11,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import requests
 import io
 import tempfile
+from sklearn.base import BaseEstimator, TransformerMixin
 
 # Konfiguracja strony
 st.set_page_config(
