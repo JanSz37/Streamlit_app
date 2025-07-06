@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import CustomFeaturesAdder
+from custom_transformers import CustomFeaturesAdder
 import numpy as np
 import joblib
 import plotly.express as px
